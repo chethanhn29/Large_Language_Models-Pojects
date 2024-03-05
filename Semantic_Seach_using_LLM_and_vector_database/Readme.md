@@ -8,7 +8,7 @@ Semantic search is a powerful technique that leverages vector representations to
 **For a more comprehensive understanding of Semantic Search, you can explore this informative write-up [here](https://txt.cohere.com/what-is-semantic-search/).**
 
 ## Project Phases
-
+![](https://miro.medium.com/v2/resize:fit:1200/1*GBBkSPAAW9QULwpFuSOt2w.png)
 ### 1. Loading the Quora Questions Dataset
 The project initiates by loading a dataset containing questions sourced from Quora, a popular question-and-answer platform, which serves as the foundation for semantic search exploration.
 
