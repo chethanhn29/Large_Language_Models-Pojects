@@ -1,0 +1,10 @@
+gradio
+Pillow
+torch
+transformers
+matplotlib
+inflect
+timm
+phonemizer
+py-espeak-ng
+streamlit
