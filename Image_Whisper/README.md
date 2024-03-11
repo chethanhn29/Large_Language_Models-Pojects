@@ -32,10 +32,12 @@ The required Python libraries are:
 
 1. **Upload Image**: Users upload an image using the file uploader provided in the web interface.
 2. **Object Detection**: The uploaded image is passed through a pre-trained object detection model to identify objects present in the image.
-3. **Text Extraction**: The text is extracted from the detected objects in the image using optical character recognition (OCR) technology.
-4. **Text Explanation**: The extracted text is analyzed and explained in natural language to provide additional context or details.
-5. **Audio Output**: The explained text is converted to audio using text-to-speech (TTS) technology, providing an audio description of the text in the image.
-6. **Display Results**: The processed image, explained text, and audio output are displayed to the user via the web interface.
+![detr_architecture](https://github.com/chethanhn29/Large-Language-Models/assets/110838853/355b6dbe-d4b4-42fe-a4b8-554c797d8703)
+
+4. **Text Extraction**: The text is extracted from the detected objects in the image using optical character recognition (OCR) technology.
+5. **Text Explanation**: The extracted text is analyzed and explained in natural language to provide additional context or details.
+6. **Audio Output**: The explained text is converted to audio using text-to-speech (TTS) technology, providing an audio description of the text in the image.
+7. **Display Results**: The processed image, explained text, and audio output are displayed to the user via the web interface.
 
        +-------------------------------------+
        |        Web Interface                |
