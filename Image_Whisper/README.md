@@ -37,37 +37,38 @@ The required Python libraries are:
 5. **Audio Output**: The explained text is converted to audio using text-to-speech (TTS) technology, providing an audio description of the text in the image.
 6. **Display Results**: The processed image, explained text, and audio output are displayed to the user via the web interface.
 
-       +-------------------+
-       |   Web Interface   |
-       +-------------------+
-                 |
-                 v
-       +-------------------+
-       | Object Detection  |
-       |      Model        |
-       +-------------------+
-                 |
-                 v
-       +-------------------+
-       | Text Extraction   |
-       |   (OCR Module)    |
-       +-------------------+
-                 |
-                 v
-       +-------------------+
-       | Text Explanation  |
-       +-------------------+
-                 |
-                 v
-       +-------------------+
-       | Text-to-Speech    |
-       |    (TTS Module)   |
-       +-------------------+
-                 |
-                 v
-       +-------------------+
-       |   Audio Output    |
-       +-------------------+
+       +-------------------------------------+
+       |        Web Interface                |
+       +-------------------------------------+
+                      |
+                      v
+       +-------------------------------------+
+       |      Object Detection Model         |
+       |   (DETR with ResNet-50 backbone)   |
+       +-------------------------------------+
+                      |
+                      v
+       +-------------------------------------+
+       |          Text Extraction            |
+       |         (OCR Module)                |
+       +-------------------------------------+
+                      |
+                      v
+       +-------------------------------------+
+       |        Text Explanation             |
+       +-------------------------------------+
+                      |
+                      v
+       +-------------------------------------+
+       |   Text-to-Speech (TTS Module)       |
+       |    (VITS: Conditional VAE model)    |
+       +-------------------------------------+
+                      |
+                      v
+       +-------------------------------------+
+       |        Audio Output                 |
+       +-------------------------------------+
+
 
 ### Project Files
 
