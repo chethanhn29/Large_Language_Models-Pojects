@@ -3,28 +3,6 @@
 
 Image Whisper is a Streamlit web application designed for image processing, text extraction, and text-to-speech (TTS) conversion. It provides users with the capability to upload images, detect objects within them, extract text, and generate audio narrations based on the extracted text.
 
-## Installation
-
-To run Image Whisper, ensure you have the necessary dependencies installed. You can do this via pip and npm:
-
-```bash
-pip install -r requirements.txt
-npm install localtunnel
-sudo apt-get install espeak
-```
-
-The required Python libraries include:
-
-- `timm`
-- `phonemizer`
-- `inflect`
-- `streamlit`
-- `Pillow`
-- `torch`
-- `transformers`
-- `matplotlib`
-- `py-espeak-ng`
-
 ## Overview
 
 Image Whisper consists of two primary components:
@@ -62,6 +40,36 @@ VITS is a conditional variational autoencoder (VAE) tailored for end-to-end text
 - `helper.py`: Contains helper functions utilized within the application.
 - `predictions.py`: Module comprising functions for object detection, text extraction, and natural language processing.
 - `get_predictions.ipynb`: Jupyter Notebook for running the Streamlit application in Google Colab.
+
+## Deployment of this Application
+This project is deployed on Hugging Face Spaces: https://huggingface.co/spaces/Chethu/Image_Whisper with Streamlit as the web interface.
+
+**Screenshot of Deployed App**: 
+
+![Screenshot (68)](https://github.com/chethanhn29/Large_Language_Models-Pojects/assets/110838853/0a4d160a-8adb-421f-860f-0f5530cb36e5)
+
+## Installation
+
+To run Image Whisper, ensure you have the necessary dependencies installed. You can do this via pip and npm:
+
+```bash
+pip install -r requirements.txt
+npm install localtunnel
+sudo apt-get install espeak
+```
+
+The required Python libraries include:
+
+- `timm`
+- `phonemizer`
+- `inflect`
+- `streamlit`
+- `Pillow`
+- `torch`
+- `transformers`
+- `matplotlib`
+- `py-espeak-ng`
+
 
 ## Running the Application
 
