@@ -34,6 +34,7 @@ Image Whisper consists of two primary components:
 2. **Text-to-Speech (TTS)**: Employs the VITS (Conditional Variational Autoencoder with Adversarial Learning) model for end-to-end text-to-speech synthesis. VITS predicts speech waveforms conditioned on input text sequences and is trained on the LJ Speech dataset.
 
 ## Workflow
+![Screenshot_12-3-2024_213410_](https://github.com/chethanhn29/Large-Language-Models/assets/110838853/a746fbd7-da20-4663-9343-156ac616b5a8)
 
 1. **Upload Image**: Users upload an image using the provided file uploader in the web interface.
 2. **Object Detection**: The uploaded image undergoes object detection using a pre-trained DETR model, identifying objects within the image.
@@ -90,44 +91,4 @@ To run the application locally:
 - Ensure necessary Python and npm packages are installed prior to running the application.
 - In Colab, the public IP address serves as the password for localtunnel. Provide this when prompted.
 - For audio output, ensure the `espeak` package is installed on your system.
-```
-
-
-
-
-
-
-       +-------------------------------------+
-       |        Web Interface                |
-       +-------------------------------------+
-                      |
-                      v
-       +-------------------------------------+
-       |      Object Detection Model         |
-       |   (DETR with ResNet-50 backbone)   |
-       +-------------------------------------+
-                      |
-                      v
-       +-------------------------------------+
-       |          Text Extraction            |
-       |         (OCR Module)                |
-       +-------------------------------------+
-                      |
-                      v
-       +-------------------------------------+
-       |        Text Explanation             |
-       +-------------------------------------+
-                      |
-                      v
-       +-------------------------------------+
-       |   Text-to-Speech (TTS Module)       |
-       |    (VITS: Conditional VAE model)    |
-       +-------------------------------------+
-                      |
-                      v
-       +-------------------------------------+
-       |        Audio Output                 |
-       +-------------------------------------+
-
-
 
