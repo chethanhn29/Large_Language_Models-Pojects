@@ -1,4 +1,3 @@
-```markdown
 # Image Whisper
 ## Image Processing and Text-to-Speech App
 
