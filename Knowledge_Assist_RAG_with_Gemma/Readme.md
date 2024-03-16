@@ -19,7 +19,7 @@ The "Knowledge Assist" project focuses on developing an intelligent system for e
 3. **Open Source Models**: The project utilizes open-source models for text embedding and vector search, such as SentenceTransformer for generating embeddings and MongoDB's vector search capabilities.
 
 ### Workflow:
-![Knowledge_Assist_RAG](https://github.com/chethanhn29/Large_Language_Models-Pojects/assets/110838853/c2c0864c-d04a-4931-843d-dd0da9edfbcd)
+![Knowledge_Assist_RAG(1)](https://github.com/chethanhn29/Large_Language_Models-Pojects/assets/110838853/ef82e206-3e08-4055-a7a5-937a29dc20ac)
 
 
 1. **Data Preparation**: The project starts with preparing the dataset, which typically contains textual information such as movie plots.
