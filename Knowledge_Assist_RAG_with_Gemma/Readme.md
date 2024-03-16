@@ -4,6 +4,10 @@
 
 The "Knowledge Assist" project focuses on developing an intelligent system for efficiently retrieving and generating informative responses to user queries. Leveraging advanced natural language processing (NLP) techniques, MongoDB for data storage, and Gemma for response generation, the system enhances the overall search experience by providing accurate and relevant information to users.
 
+## **Objective**:
+   - The primary goal is to build a knowledge assistance system that combines retrieval-based and generative-based techniques.
+   - It aims to provide users with accurate and relevant information in response to their queries, enhancing their overall search experience.
+
 ## Architecture
 
 ### Components:
