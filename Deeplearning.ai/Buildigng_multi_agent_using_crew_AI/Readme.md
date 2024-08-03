@@ -266,3 +266,4 @@ Multi-agent workflows involve breaking down complex tasks into subtasks executed
 ![Screenshot (179)](https://github.com/user-attachments/assets/cf456c27-a360-4fad-8249-dfbc716177b5)
 ![Screenshot (180)](https://github.com/user-attachments/assets/b5bb95d7-3336-440d-a2f8-ed5f7d66ae7b)
 
+![Screenshot (190)](https://github.com/user-attachments/assets/78cf5ae6-9cd6-4a1d-be19-3a99c261b4cc)
