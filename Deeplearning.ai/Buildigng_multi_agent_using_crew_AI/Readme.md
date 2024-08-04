@@ -267,3 +267,79 @@ Multi-agent workflows involve breaking down complex tasks into subtasks executed
 ![Screenshot (180)](https://github.com/user-attachments/assets/b5bb95d7-3336-440d-a2f8-ed5f7d66ae7b)
 
 ![Screenshot (190)](https://github.com/user-attachments/assets/78cf5ae6-9cd6-4a1d-be19-3a99c261b4cc)
+
+### Notes on Video Transcript
+
+#### Importance of Tasks in Multi-Agent Systems
+
+- **Tasks as a Cornerstone**:
+  - Tasks are essential in multi-agent systems, akin to how a manager assigns tasks to employees.
+  - Clear understanding of tasks, goals, roles, and processes is crucial for effective task delegation.
+
+#### Manager Analogy for Task Delegation
+
+- **Defining Roles and Goals**:
+  - Think like a manager hiring people (agents) for specific tasks.
+  - Define the roles, goals, and backstory of each agent to align with the overall objective.
+
+- **Clear Task Definition**:
+  - Tasks need a clear description and concise expectations.
+  - Analogous to instructing a junior engineer, tasks should be well-explained with specific goals and expected outcomes.
+
+- **Expectations and Metrics**:
+  - Establish clear expectations and metrics to measure success.
+  - This ensures tasks are well-defined and performance can be evaluated effectively.
+
+#### Creating Effective Tasks
+
+- **Detailed Task Descriptions**:
+  - Provide a detailed description of what the task involves.
+  - Set clear and concise expectations for what the task should achieve.
+
+- **CrewAl's Task Framework**:
+  - CrewAl requires every task to have a description and expected outcome.
+  - This approach helps in building better internal prompts and achieving better results across various frameworks.
+
+#### Hyperparameters and Advanced Options
+
+- **Additional Task Settings**:
+  - CrewAl offers hyperparameters like context, callbacks, specific task force human inputs, and more.
+  - Tasks can be synchronous, output results in various formats (JSON, files), or run in parallel.
+
+- **Complex Multi-Agent Systems**:
+  - Depending on the system's complexity, various task settings and parameters need consideration.
+  - CrewAl provides a range of options to ensure tasks are executed efficiently, similar to other frameworks with different features.
+
+#### Key Takeaways
+
+- **Task Clarity and Success Metrics**:
+  - Clear task definitions and success metrics are instrumental in building effective agents.
+  - Detailed instructions and expectations help agents perform tasks accurately.
+
+- **Advanced Task Configuration**:
+  - Utilize advanced settings like hyperparameters, callbacks, and parallel execution to optimize task performance in complex systems.
+  - CrewAl's framework supports a wide range of configurations to suit different needs.
+
+#### Summary and Next Steps
+
+- **Building Great Agents**:
+  - Once tasks are clearly defined and configured, focus shifts to building agents to accomplish these tasks.
+  - The next lesson will delve into creating agents based on these principles.
+
+### Practical Implementation Advice
+
+1. **Defining Clear Tasks**:
+   - When creating tasks, ensure they have a clear description and defined expectations.
+   - Think about the roles and goals as if you are delegating work to a team member.
+
+2. **Setting Success Metrics**:
+   - Establish metrics to measure task success, ensuring agents understand the goals and can be evaluated effectively.
+
+3. **Utilizing Hyperparameters**:
+   - Use hyperparameters and advanced settings to tailor tasks to specific needs, improving efficiency and performance.
+
+4. **Exploring Framework Documentation**:
+   - Review documentation for frameworks like CrewAl to understand available task settings and how to implement them effectively in your projects.
+![Screenshot (192)](https://github.com/user-attachments/assets/47723374-c23f-41ec-9ff4-8ee0c484a3ff)
+![Screenshot (191)](https://github.com/user-attachments/assets/9faa1878-3548-4dc1-888f-8b16eb09b99f)
+
